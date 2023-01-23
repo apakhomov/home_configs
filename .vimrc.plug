@@ -1,0 +1,16 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+Plug 'sheerun/vim-polyglot'
+
+Plug 'docker/docker'
+
+Plug 'dense-analysis/ale'
+
+Plug 'Yggdroot/indentLine'
+
+Plug 'davidhalter/jedi-vim'
+
+call plug#end()
